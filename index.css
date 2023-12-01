@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    background-color: #F0F8FF;
+  }
+
+  header {
+    background: #f7efef;
+    display: flex;
+    justify-content: space-between; /* To push items to the start and end of the header */
+    align-items: center; /* To vertically center items within the header */
+    padding: 24px;
+    border-bottom: 1px solid #282828;
+  }
+
+
+  .logo {
+    margin-right: 10px;
+  }
+
+
+  .maintitle {
+    margin-right: 470px;
+    background-color: #f7efef;
+    font-family: 'Martel Sans';
+  }
+
+  .pets {
+    padding: 24px 0 24px 0;
+    /* width: 100%; */
+    text-align: center;
+  }
+
+  .pets ul {
+    margin: 0 60px 12px 0;
+    list-style-type: square;
+    list-style-position: inside;
+    font-family: 'Roboto Slab';
+    color: grey;
+  }
+
+  .petimg {
+    margin: 18px 0 0 0;
+    border-radius: 5px;
+    border: 1px solid yellowgreen;
+  }
+
+  .movies {
+    padding: 24px 0 24px 0;
+    text-align: center;
+  }
+
+  .movies ol {
+    margin: 0 60px 18px 0;
+    list-style-type: decimal;
+    list-style-position: inside;
+    font-family: 'Roboto Slab';
+    font-size: 18px;
+  }
+
+  .movieimgs {
+    width: 100%;
+    padding-bottom: 18px;
+  }
+
+  .movieimg {
+    border-radius: 5px;
+    border: 1px solid yellowgreen;
+    height: 260px;
+    width: 465px
+  }
+
+  h2 {
+    padding-bottom: 18px;
+    font-family: 'Roboto Slab';
+  }
+
+  h3 {
+    padding-bottom: 18px;
+    font-family: 'Roboto Slab';
+  }
+
+  p {
+    margin: 0 0 6px 0;
+    font-family: 'Roboto Slab';
+  }
+
+  .mabout {
+    text-align: left;
+    margin-left: 18px;
+  }
+
+  .mdisc {
+    text-align: justify;
+    padding: 18px;
+  }
+
+
+  footer {
+    background: #f7efef;
+    padding: 24px;
+    border-top: 1px solid #282828;
+  }
+
+  footer h4 {
+    text-align: center;
+    font-family: 'Martel Sans';
+    background-color: #f7efef;
+  }
