@@ -94,6 +94,21 @@
     padding: 18px;
   }
 
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #F0F8FF;
+    /* padding: 12px; */
+    margin: 0 18px 48px 18px;
+  }
+  .grid-item {
+    background-color: #F0F8FF;
+    border: 1px solid white;  
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+
 
   footer {
     background: #f7efef;
